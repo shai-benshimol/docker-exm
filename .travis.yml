@@ -1,0 +1,7 @@
+sudo: requierd
+services:
+  - docker
+script:
+  - docker build -t docker-exm .
+  
+  
